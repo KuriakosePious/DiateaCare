@@ -14,14 +14,113 @@
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
+
+
+/*- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    // Override point for customization after application launch.
+    
+    // Handle launching from a notification
+    UILocalNotification *locationNotification = [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
+    if (locationNotification) {
+        // Set icon badge number to zero
+        application.applicationIconBadgeNumber = 0;
+    }
+    
+    return YES;
+}*/
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+
+    NSString *identifier;
+  /*  BOOL isSaved = [[NSUserDefaults standardUserDefaults] boolForKey:@"loginSaved"];
+    if (isSaved)
+    {
+        identifier=@"home";
+    }
+    else
+    {
+        identifier=@"home";
+    }*/
+    BOOL saved = [[NSUserDefaults standardUserDefaults] boolForKey: @"saved"];
+    if (!saved)
+    {
+        //download code here
+        identifier=@"login";
+      //  [[NSUserDefaults standardUserDefaults] setBool:YES forKey: @"saved"];
+    }
+    else
+    {
+        identifier=@"home";
+    }
+    
+    UIStoryboard *    storyboardobj=[UIStoryboard storyboardWithName:@"Storyboard" bundle:nil];
+    UIViewController *screen = [storyboardobj instantiateViewControllerWithIdentifier:identifier];
+    [self.window setRootViewController:screen];
     return YES;
 }
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+{
+    UIApplicationState state = [application applicationState];
+    if (state == UIApplicationStateActive)
+    {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Reminder"
+                                            message:notification.alertBody
+                                                       delegate:self cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+        [alert show];
+    }
+    
+    // Request to reload table view data
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"reloadData" object:self];
+    
+    // Set icon badge number to zero
+    application.applicationIconBadgeNumber = 0;
+}
+
+
+//- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+//{
+//    // Override point for customization after application launch.
+//    
+//    // Add the view controller's view to the window and display.
+//    //[window addSubview:viewController.view];
+//    [_window makeKeyAndVisible];
+//    
+//    application.applicationIconBadgeNumber = 0;
+//    
+//    // Handle launching from a notification
+//    UILocalNotification *localNotif =
+//    [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
+//    if (localNotif)
+//    {
+//        NSLog(@"Recieved Notification %@",localNotif);
+//    }
+//    
+//    return YES;
+//}
+//
+//-(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+//{
+//    /*if (application.applicationState == UIApplicationStateInactive)
+//    {
+//        // case 2
+//        UIAlertView *aw = [[UIAlertView alloc] initWithTitle:@"Case 2" message: notification.alertBody delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+//        [aw show];
+//    }
+//    else if (application.applicationState == UIApplicationStateActive)
+//    {
+//        // case 3
+//        UIAlertView *aw = [[UIAlertView alloc] initWithTitle:@"Case 3" message: notification.alertBody delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+//        [aw show];
+//    }*/
+//    
+//    application.applicationIconBadgeNumber = notification.applicationIconBadgeNumber - 1;
+//    
+//    NSLog(@"%@", notification);
+//}
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

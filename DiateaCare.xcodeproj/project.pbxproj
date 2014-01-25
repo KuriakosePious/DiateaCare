@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		807012561766ED8D0084206C /* Food.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 807012551766ED8D0084206C /* Food.jpeg */; };
+		807012581766EF340084206C /* Food2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 807012571766EF340084206C /* Food2.jpeg */; };
+		807AA1EC17F14C6E00056DF9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AA1EB17F14C6E00056DF9 /* LoginViewController.m */; };
+		808D3432175C756B00F2F65F /* EmergencyContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 808D3431175C756B00F2F65F /* EmergencyContactsViewController.m */; };
 		808D81F4173B75980021C575 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808D81F3173B75980021C575 /* UIKit.framework */; };
 		808D81F6173B75980021C575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808D81F5173B75980021C575 /* Foundation.framework */; };
 		808D81F8173B75980021C575 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808D81F7173B75980021C575 /* CoreGraphics.framework */; };
@@ -18,9 +22,41 @@
 		808D820A173B75980021C575 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 808D8209173B75980021C575 /* Default@2x.png */; };
 		808D820C173B75980021C575 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 808D820B173B75980021C575 /* Default-568h@2x.png */; };
 		808D820F173B75980021C575 /* DiateaCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 808D820D173B75980021C575 /* DiateaCare.xcdatamodeld */; };
+		808D8216173B75AF0021C575 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808D8215173B75AF0021C575 /* Storyboard.storyboard */; };
+		809149021771618800AA639F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809149011771618800AA639F /* ProfileViewController.m */; };
+		8097E812174DCE62006949D9 /* DiabOrNotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8097E811174DCE62006949D9 /* DiabOrNotViewController.m */; };
+		8097E814174DD629006949D9 /* apple-calories.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8097E813174DD629006949D9 /* apple-calories.jpg */; };
+		8097E818174DDD31006949D9 /* Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8097E817174DDD31006949D9 /* Logo.jpg */; };
+		80987702174F313F00F0BB15 /* Level69ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80987701174F313F00F0BB15 /* Level69ViewController.m */; };
+		80CFE05917409AE8001FE296 /* BmiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFE05817409AE8001FE296 /* BmiViewController.m */; };
+		80E3812A17D4813F00A5988E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E3812917D4813F00A5988E /* Icon.png */; };
+		CE09F5BA1771BCC000A9CCFC /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE09F5B91771BCC000A9CCFC /* EditProfileViewController.m */; };
+		CE0FE1901753A49800E6898B /* Level180ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0FE18F1753A49800E6898B /* Level180ViewController.m */; };
+		CE0FE1941753AC9B00E6898B /* exercise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE0FE1931753AC9B00E6898B /* exercise.jpg */; };
+		CE8B9C5617565336000D6E55 /* diabetes-control-chart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE8B9C5517565336000D6E55 /* diabetes-control-chart.jpg */; };
+		CE8BB94F173D6ADF00B76AE3 /* SelectFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8BB94E173D6ADF00B76AE3 /* SelectFoodViewController.m */; };
+		CE8BB952173D6B3000B76AE3 /* AddFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8BB951173D6B3000B76AE3 /* AddFoodViewController.m */; };
+		CEA7A0C7174A924E00C3E266 /* FromContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA7A0C6174A924E00C3E266 /* FromContactsViewController.m */; };
+		CEA7A0CA174A93A800C3E266 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA7A0C9174A93A800C3E266 /* Person.m */; };
+		CEC6C8CA176C33950029ACAE /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6C8C9176C33950029ACAE /* ReportViewController.m */; };
+		CECA8F03174A88BD00B628F4 /* emergency.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CECA8F02174A88BD00B628F4 /* emergency.jpg */; };
+		CECA8F05174A8AC700B628F4 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECA8F04174A8AC700B628F4 /* AddressBook.framework */; };
+		CECDD30417565D1E00C89474 /* RandomSugarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDD30317565D1D00C89474 /* RandomSugarViewController.m */; };
+		CECF3801176A028800AAB339 /* new_user_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CECF3800176A028800AAB339 /* new_user_logo.png */; };
+		CED0C3E7173BFCE6004B70EE /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED0C3E6173BFCE6004B70EE /* FoodViewController.m */; };
+		CED24336175114C000826F25 /* Level126ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED24335175114C000826F25 /* Level126ViewController.m */; };
+		CED24338175115C900826F25 /* diabates-diet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CED24337175115C900826F25 /* diabates-diet.jpg */; };
+		CEE9C04A17575ADC0049C291 /* button-green1.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE9C04917575ADC0049C291 /* button-green1.png */; };
+		CEE9C04D17575C240049C291 /* ReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE9C04C17575C240049C291 /* ReminderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		807012551766ED8D0084206C /* Food.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Food.jpeg; sourceTree = "<group>"; };
+		807012571766EF340084206C /* Food2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Food2.jpeg; sourceTree = "<group>"; };
+		807AA1EA17F14C6E00056DF9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		807AA1EB17F14C6E00056DF9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		808D3430175C756B00F2F65F /* EmergencyContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmergencyContactsViewController.h; sourceTree = "<group>"; };
+		808D3431175C756B00F2F65F /* EmergencyContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmergencyContactsViewController.m; sourceTree = "<group>"; };
 		808D81F0173B75980021C575 /* DiateaCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiateaCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		808D81F3173B75980021C575 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		808D81F5173B75980021C575 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +72,47 @@
 		808D8209173B75980021C575 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		808D820B173B75980021C575 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		808D820E173B75980021C575 /* DiateaCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DiateaCare.xcdatamodel; sourceTree = "<group>"; };
+		808D8215173B75AF0021C575 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		809149001771618800AA639F /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		809149011771618800AA639F /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		8097E810174DCE62006949D9 /* DiabOrNotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiabOrNotViewController.h; sourceTree = "<group>"; };
+		8097E811174DCE62006949D9 /* DiabOrNotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiabOrNotViewController.m; sourceTree = "<group>"; };
+		8097E813174DD629006949D9 /* apple-calories.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-calories.jpg"; sourceTree = "<group>"; };
+		8097E817174DDD31006949D9 /* Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpg; sourceTree = "<group>"; };
+		80987700174F313F00F0BB15 /* Level69ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level69ViewController.h; sourceTree = "<group>"; };
+		80987701174F313F00F0BB15 /* Level69ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level69ViewController.m; sourceTree = "<group>"; };
+		80CFE05717409AE8001FE296 /* BmiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BmiViewController.h; sourceTree = "<group>"; };
+		80CFE05817409AE8001FE296 /* BmiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BmiViewController.m; sourceTree = "<group>"; };
+		80E3812917D4813F00A5988E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CE09F5B81771BCC000A9CCFC /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
+		CE09F5B91771BCC000A9CCFC /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
+		CE0FE18E1753A49800E6898B /* Level180ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level180ViewController.h; sourceTree = "<group>"; };
+		CE0FE18F1753A49800E6898B /* Level180ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level180ViewController.m; sourceTree = "<group>"; };
+		CE0FE1931753AC9B00E6898B /* exercise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = exercise.jpg; sourceTree = "<group>"; };
+		CE8B9C5517565336000D6E55 /* diabetes-control-chart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "diabetes-control-chart.jpg"; sourceTree = "<group>"; };
+		CE8BB94D173D6ADF00B76AE3 /* SelectFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectFoodViewController.h; sourceTree = "<group>"; };
+		CE8BB94E173D6ADF00B76AE3 /* SelectFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectFoodViewController.m; sourceTree = "<group>"; };
+		CE8BB950173D6B3000B76AE3 /* AddFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFoodViewController.h; sourceTree = "<group>"; };
+		CE8BB951173D6B3000B76AE3 /* AddFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFoodViewController.m; sourceTree = "<group>"; };
+		CEA7A0C5174A924E00C3E266 /* FromContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromContactsViewController.h; sourceTree = "<group>"; };
+		CEA7A0C6174A924E00C3E266 /* FromContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FromContactsViewController.m; sourceTree = "<group>"; };
+		CEA7A0C8174A93A800C3E266 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CEA7A0C9174A93A800C3E266 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		CEC6C8C8176C33950029ACAE /* ReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
+		CEC6C8C9176C33950029ACAE /* ReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
+		CECA8F02174A88BD00B628F4 /* emergency.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emergency.jpg; sourceTree = "<group>"; };
+		CECA8F04174A8AC700B628F4 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		CECDD30217565D1D00C89474 /* RandomSugarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomSugarViewController.h; sourceTree = "<group>"; };
+		CECDD30317565D1D00C89474 /* RandomSugarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomSugarViewController.m; sourceTree = "<group>"; };
+		CECF3800176A028800AAB339 /* new_user_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_user_logo.png; sourceTree = "<group>"; };
+		CED0C3E5173BFCE6004B70EE /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
+		CED0C3E6173BFCE6004B70EE /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
+		CED24334175114C000826F25 /* Level126ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level126ViewController.h; sourceTree = "<group>"; };
+		CED24335175114C000826F25 /* Level126ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level126ViewController.m; sourceTree = "<group>"; };
+		CED24337175115C900826F25 /* diabates-diet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "diabates-diet.jpg"; sourceTree = "<group>"; };
+		CEE9C04917575ADC0049C291 /* button-green1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-green1.png"; sourceTree = "<group>"; };
+		CEE9C04B17575C240049C291 /* ReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderViewController.h; sourceTree = "<group>"; };
+		CEE9C04C17575C240049C291 /* ReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECA8F05174A8AC700B628F4 /* AddressBook.framework in Frameworks */,
 				808D81F4173B75980021C575 /* UIKit.framework in Frameworks */,
 				808D81F6173B75980021C575 /* Foundation.framework in Frameworks */,
 				808D81F8173B75980021C575 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +134,42 @@
 		808D81E7173B75980021C575 = {
 			isa = PBXGroup;
 			children = (
+				807AA1EA17F14C6E00056DF9 /* LoginViewController.h */,
+				807AA1EB17F14C6E00056DF9 /* LoginViewController.m */,
+				80E3812917D4813F00A5988E /* Icon.png */,
+				CE09F5B81771BCC000A9CCFC /* EditProfileViewController.h */,
+				CE09F5B91771BCC000A9CCFC /* EditProfileViewController.m */,
+				809149001771618800AA639F /* ProfileViewController.h */,
+				809149011771618800AA639F /* ProfileViewController.m */,
+				CEC6C8C8176C33950029ACAE /* ReportViewController.h */,
+				CEC6C8C9176C33950029ACAE /* ReportViewController.m */,
+				CEE9C04B17575C240049C291 /* ReminderViewController.h */,
+				CEE9C04C17575C240049C291 /* ReminderViewController.m */,
+				CECDD30217565D1D00C89474 /* RandomSugarViewController.h */,
+				CECDD30317565D1D00C89474 /* RandomSugarViewController.m */,
+				CE0FE18E1753A49800E6898B /* Level180ViewController.h */,
+				CE0FE18F1753A49800E6898B /* Level180ViewController.m */,
+				CED24334175114C000826F25 /* Level126ViewController.h */,
+				CED24335175114C000826F25 /* Level126ViewController.m */,
+				80987700174F313F00F0BB15 /* Level69ViewController.h */,
+				80987701174F313F00F0BB15 /* Level69ViewController.m */,
+				8097E810174DCE62006949D9 /* DiabOrNotViewController.h */,
+				8097E811174DCE62006949D9 /* DiabOrNotViewController.m */,
+				CEA7A0C5174A924E00C3E266 /* FromContactsViewController.h */,
+				CEA7A0C8174A93A800C3E266 /* Person.h */,
+				CEA7A0C9174A93A800C3E266 /* Person.m */,
+				CEA7A0C6174A924E00C3E266 /* FromContactsViewController.m */,
+				808D3430175C756B00F2F65F /* EmergencyContactsViewController.h */,
+				808D3431175C756B00F2F65F /* EmergencyContactsViewController.m */,
+				80CFE05717409AE8001FE296 /* BmiViewController.h */,
+				80CFE05817409AE8001FE296 /* BmiViewController.m */,
+				CE8BB950173D6B3000B76AE3 /* AddFoodViewController.h */,
+				CE8BB951173D6B3000B76AE3 /* AddFoodViewController.m */,
+				CE8BB94D173D6ADF00B76AE3 /* SelectFoodViewController.h */,
+				CE8BB94E173D6ADF00B76AE3 /* SelectFoodViewController.m */,
+				CED0C3E5173BFCE6004B70EE /* FoodViewController.h */,
+				CED0C3E6173BFCE6004B70EE /* FoodViewController.m */,
+				808D8215173B75AF0021C575 /* Storyboard.storyboard */,
 				808D81FB173B75980021C575 /* DiateaCare */,
 				808D81F2173B75980021C575 /* Frameworks */,
 				808D81F1173B75980021C575 /* Products */,
@@ -73,6 +187,7 @@
 		808D81F2173B75980021C575 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CECA8F04174A8AC700B628F4 /* AddressBook.framework */,
 				808D81F3173B75980021C575 /* UIKit.framework */,
 				808D81F5173B75980021C575 /* Foundation.framework */,
 				808D81F7173B75980021C575 /* CoreGraphics.framework */,
@@ -95,6 +210,16 @@
 		808D81FC173B75980021C575 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8097E813174DD629006949D9 /* apple-calories.jpg */,
+				CEE9C04917575ADC0049C291 /* button-green1.png */,
+				CE8B9C5517565336000D6E55 /* diabetes-control-chart.jpg */,
+				CED24337175115C900826F25 /* diabates-diet.jpg */,
+				CECA8F02174A88BD00B628F4 /* emergency.jpg */,
+				CE0FE1931753AC9B00E6898B /* exercise.jpg */,
+				807012551766ED8D0084206C /* Food.jpeg */,
+				807012571766EF340084206C /* Food2.jpeg */,
+				8097E817174DDD31006949D9 /* Logo.jpg */,
+				CECF3800176A028800AAB339 /* new_user_logo.png */,
 				808D81FD173B75980021C575 /* DiateaCare-Info.plist */,
 				808D81FE173B75980021C575 /* InfoPlist.strings */,
 				808D8201173B75980021C575 /* main.m */,
@@ -162,6 +287,18 @@
 				808D8208173B75980021C575 /* Default.png in Resources */,
 				808D820A173B75980021C575 /* Default@2x.png in Resources */,
 				808D820C173B75980021C575 /* Default-568h@2x.png in Resources */,
+				808D8216173B75AF0021C575 /* Storyboard.storyboard in Resources */,
+				CECA8F03174A88BD00B628F4 /* emergency.jpg in Resources */,
+				8097E814174DD629006949D9 /* apple-calories.jpg in Resources */,
+				8097E818174DDD31006949D9 /* Logo.jpg in Resources */,
+				CED24338175115C900826F25 /* diabates-diet.jpg in Resources */,
+				CE0FE1941753AC9B00E6898B /* exercise.jpg in Resources */,
+				CE8B9C5617565336000D6E55 /* diabetes-control-chart.jpg in Resources */,
+				CEE9C04A17575ADC0049C291 /* button-green1.png in Resources */,
+				807012561766ED8D0084206C /* Food.jpeg in Resources */,
+				807012581766EF340084206C /* Food2.jpeg in Resources */,
+				CECF3801176A028800AAB339 /* new_user_logo.png in Resources */,
+				80E3812A17D4813F00A5988E /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +312,23 @@
 				808D8202173B75980021C575 /* main.m in Sources */,
 				808D8206173B75980021C575 /* coreAppDelegate.m in Sources */,
 				808D820F173B75980021C575 /* DiateaCare.xcdatamodeld in Sources */,
+				CED0C3E7173BFCE6004B70EE /* FoodViewController.m in Sources */,
+				CE8BB94F173D6ADF00B76AE3 /* SelectFoodViewController.m in Sources */,
+				CE8BB952173D6B3000B76AE3 /* AddFoodViewController.m in Sources */,
+				80CFE05917409AE8001FE296 /* BmiViewController.m in Sources */,
+				CEA7A0C7174A924E00C3E266 /* FromContactsViewController.m in Sources */,
+				CEA7A0CA174A93A800C3E266 /* Person.m in Sources */,
+				8097E812174DCE62006949D9 /* DiabOrNotViewController.m in Sources */,
+				80987702174F313F00F0BB15 /* Level69ViewController.m in Sources */,
+				CED24336175114C000826F25 /* Level126ViewController.m in Sources */,
+				CE0FE1901753A49800E6898B /* Level180ViewController.m in Sources */,
+				CECDD30417565D1E00C89474 /* RandomSugarViewController.m in Sources */,
+				CEE9C04D17575C240049C291 /* ReminderViewController.m in Sources */,
+				808D3432175C756B00F2F65F /* EmergencyContactsViewController.m in Sources */,
+				CEC6C8CA176C33950029ACAE /* ReportViewController.m in Sources */,
+				809149021771618800AA639F /* ProfileViewController.m in Sources */,
+				CE09F5BA1771BCC000A9CCFC /* EditProfileViewController.m in Sources */,
+				807AA1EC17F14C6E00056DF9 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +405,7 @@
 		808D8213173B75980021C575 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DiateaCare/DiateaCare-Prefix.pch";
 				INFOPLIST_FILE = "DiateaCare/DiateaCare-Info.plist";
@@ -262,6 +417,7 @@
 		808D8214173B75980021C575 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DiateaCare/DiateaCare-Prefix.pch";
 				INFOPLIST_FILE = "DiateaCare/DiateaCare-Info.plist";
@@ -289,6 +445,7 @@
 				808D8214173B75980021C575 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
